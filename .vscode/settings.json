@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Nord Native",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#00ADD8",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBarTop.activeBorder": "#00ADD8",
+    "activityBar.border": "#00ADD8",
+    "activityBar.dropBackground": "#00ADD8",
+    "activityBar.activeBorder": "#00ADD8",
+    "activityBar.activeFocusBorder": "#00ADD8"
+  }
+}
