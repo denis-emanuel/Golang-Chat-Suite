@@ -1,0 +1,6 @@
+go 1.22.1
+
+use (
+	./backend/chat-service
+	./backend/filtering-service
+)
