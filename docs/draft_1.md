@@ -1,3 +1,13 @@
+- [**First draft and high level architecture idea**](#first-draft-and-high-level-architecture-idea)
+  - [**1) Chat Service (Main API Service)**](#1-chat-service-main-api-service)
+    - [**Project Structure**](#project-structure)
+    - [**Core Components**](#core-components)
+  - [**2) gRPC Service (Supporting Service)**](#2-grpc-service-supporting-service)
+    - [**Project Structure**](#project-structure-1)
+    - [**Core Components**](#core-components-1)
+  - [**Inter-Service Communication**](#inter-service-communication)
+  - [**Tech Stack \& Libraries**](#tech-stack--libraries)
+
 # **First draft and high level architecture idea**
 
 ```
@@ -23,7 +33,7 @@ This service will:
 - Implement **authentication (JWT/OAuth)**.
 - Publish events to **Redis Pub/Sub** for multi-instance sync.
 
-### **Project Structure (`/chat-service`)**
+### **Project Structure**
 
 ```
 chat-service/
@@ -72,7 +82,7 @@ This service will:
 - Provide **gRPC APIs** for the main chat service to call.
 - Handle **background jobs** (e.g., delayed email notifications).
 
-### **Project Structure (`/grpc-service`)**
+### **Project Structure**
 
 ```
 grpc-service/
