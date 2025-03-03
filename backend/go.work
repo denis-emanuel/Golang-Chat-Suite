@@ -4,4 +4,5 @@ use (
 	./chat-service
 	./cmd
 	./filtering-service
+	./user-service
 )
